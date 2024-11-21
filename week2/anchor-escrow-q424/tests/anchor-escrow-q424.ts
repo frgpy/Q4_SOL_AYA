@@ -77,6 +77,7 @@ describe("anchor-escrow", () => {
       maker.publicKey,
       MAKER_AMOUNT
     );
+    console.log(mint_a)
     await mintTo(
       provider.connection,
       taker,

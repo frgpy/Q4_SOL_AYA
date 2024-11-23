@@ -1,0 +1,10 @@
+cat > .gitignore << EOL
+node_modules/
+.yarn/
+target/
+**/*.rs.bk
+.env
+.anchor
+dist/
+build/
+EOL
